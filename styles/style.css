@@ -157,6 +157,34 @@ main {
   align-items: center;
   margin-left: 950px;
 }
+
+/* forth section */
+.forth-section {
+  display: flex;
+  width: 1110px;
+  height: 270px;
+}
+.forth-section-img {
+  width: 404px;
+  height: 270px;
+}
+.forth-section-discription {
+  width: 610px;
+  height: 220px;
+  padding-left: 96px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.forth-section-discription h2 {
+  font-family: "Poppins", sans-serif;
+  color: #0a0826;
+  margin-bottom: 0;
+}
+.forth-section-passage {
+  margin: 0;
+}
 /* fonts will be added when needed. */
 
 /*
