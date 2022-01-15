@@ -1,7 +1,57 @@
 /* Main body */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* first section */
+.first-section {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+}
+.first-section-passage {
+  width: 582px;
+  margin-right: 133px;
+}
+.first-headline-line1,
+.first-headline-line2 {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.first-headline-line2 {
+  margin-top: 0;
+}
+.first-passage {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.first-section-link {
+  background-color: #e02c6d;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 41px;
+}
+.fa-arrow-right {
+  padding-left: 8px;
+}
+.first-section-img {
+  width: 440px;
+  height: 414px;
+  transition: transform 3s;
+}
+.first-section-img:hover {
+  transform: rotate(360deg);
+}
 /* fonts will be added when needed. */
 
-/* font-family: 'Poppins', sans-serif;
+/*
 font-family: 'Manrope', sans-serif;
 font-family: 'Inter', sans-serif; */
