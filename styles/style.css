@@ -1,19 +1,43 @@
+/* body */
+body {
+  margin: 0;
+}
+
 /* header section */
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #3a3a3a;
+  padding-left: 10px;
 }
 /* nav bar style */
+
 .nav-bar > ul {
   list-style: none;
   display: flex;
   justify-content: right;
   align-items: center;
+  padding-right: 10px;
+}
+.nav-bar > ul > li {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+  display: flex;
+  margin-left: 34px;
 }
 /* Main body */
-main {
+main,
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,7 +244,7 @@ main {
 /* footer section */
 .footer {
   background-color: #0a0826;
-  width: 1440px;
+  width: 100%;
   height: 239px;
   display: flex;
   justify-content: center;
@@ -243,6 +267,21 @@ main {
   margin: 0;
   padding-bottom: 3px;
   color: #ffffff;
+}
+.footer-icons > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+.footer-icons > ul > li {
+  color: white;
+  border-radius: 50px;
+  margin-left: 16px;
+}
+.fa-youtube {
+  margin-right: 16px;
 }
 /* fonts will be added when needed. */
 
