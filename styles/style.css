@@ -71,9 +71,95 @@ main {
 .line-break {
   border: 1px solid #3a3a3a;
 }
-
+/* third section */
+.third-section {
+  width: 1047px;
+  height: 1662px;
+  margin-bottom: 100px;
+}
+.third-section-heading {
+  font-family: "Poppins", sans-serif;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-section-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.section-item {
+  margin-bottom: 30px;
+}
+.item-image {
+  width: 300px;
+  height: 256px;
+  margin-bottom: 16px;
+}
+.collection-heading1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.collection-heading2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.collection-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.collection-rating > ul {
+  list-style: none;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 0;
+}
+.fa-star,
+.fa-star-half {
+  width: 16px;
+  height: 16px;
+  color: orange;
+  padding-right: 3px;
+}
+.ratiug-number {
+  color: #5e6366;
+  padding-left: 8px;
+}
+.product-descriptions {
+  margin-bottom: 17px;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  color: #787885;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.third-section-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #e02c6d;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 950px;
+}
 /* fonts will be added when needed. */
 
 /*
+font-family: "Poppins", sans-serif;
 font-family: 'Manrope', sans-serif;
-font-family: 'Inter', sans-serif; */
+font-family: 'Inter', sans-serif; */ ;
