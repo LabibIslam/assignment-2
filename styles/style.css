@@ -1,3 +1,17 @@
+/* header section */
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+/* nav bar style */
+.nav-bar > ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
 /* Main body */
 main {
   display: flex;
@@ -166,6 +180,7 @@ main {
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-bottom: 100px;
 }
 .forth-section-img {
   width: 404px;
@@ -200,6 +215,34 @@ main {
   font-size: 16px;
   font-weight: 700;
   padding: 10px 24px;
+}
+
+/* footer section */
+.footer {
+  background-color: #0a0826;
+  width: 1440px;
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-line1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 3px;
+  color: #ffffff;
+}
+.footer-line2,
+.footer-line3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 3px;
+  color: #ffffff;
 }
 /* fonts will be added when needed. */
 
