@@ -154,8 +154,8 @@ main {
   color: #e02c6d;
   text-decoration: none;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  margin-left: 950px;
 }
 
 /* forth section */
@@ -163,6 +163,9 @@ main {
   display: flex;
   width: 1110px;
   height: 270px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .forth-section-img {
   width: 404px;
@@ -180,10 +183,23 @@ main {
 .forth-section-discription h2 {
   font-family: "Poppins", sans-serif;
   color: #0a0826;
-  margin-bottom: 0;
+  margin: 0;
 }
 .forth-section-passage {
-  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.forth-section-link {
+  background-color: #e02c6d;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 24px;
 }
 /* fonts will be added when needed. */
 
